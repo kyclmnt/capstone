@@ -36,7 +36,7 @@ require_once "template/footer.php";
             <input type="password" placeholder="Password">
         </span>
         <button>
-            Sign In
+            Sign In Now
         </button>
         
     </div>
