@@ -129,7 +129,154 @@
                 <input type="numeric" name="idnum" id="idnum">        
             </div> 
         </div>
+        <br>
+        <br>
+        Current Address 
+        <div> 
+            <br>
+            <label for="housenum">House No./Street</label>
+            <input type="text" name="housenum" id="housenum">
+            <label for="streetname">Street Name</label>
+            <input type="text" name="street" id="street">
+            <label for="barangay">Barangay</label>
+            <input type="text" name="brgy" id="brgy">
+        </div>
+        <div> 
+            <label for="municipality">Municipality/City</label>
+            <input type="text" name="city" id="city">
+            <label for="province">Province</label>
+            <input type="text" name="prov" id="prov">
+            <label for="country">Country</label>
+            <input type="text" name="country" id="country">
+            <label for="zipcode">Zip Code</label>
+            <input type="numeric" name="zip" id="zip">
+        </div>
+        <br>
+        Permanent Address <i>(Same with your current address?)</i>
+                <label for ="Ycurrent">Yes</label>
+                <input type="radio" name="addr" id="addr">
+                <label for ="Ncurrent">No</label>
+                <input type="radio" name="addr" id="addr"> 
+        <div> 
+            <br>
+            <label for="housenum">House No./Street</label>
+            <input type="text" name="housenum" id="housenum">
+            <label for="streetname">Street Name</label>
+            <input type="text" name="street" id="street">
+            <label for="barangay">Barangay</label>
+            <input type="text" name="brgy" id="brgy">
+        </div>
+        <div> 
+            <label for="municipality">Municipality/City</label>
+            <input type="text" name="city" id="city">
+            <label for="province">Province</label>
+            <input type="text" name="prov" id="prov">
+            <label for="country">Country</label>
+            <input type="text" name="country" id="country">
+            <label for="zipcode">Zip Code</label>
+            <input type="numeric" name="zip" id="zip">
+        </div>  
+        <br>
+
+        <p><b> PARENT'S/GUARDIAN'S INFORMATION </b></p>
+        Father's Name          
+        <div> 
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname">
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname">
+            <label for="mname">Middle Name</label>
+            <input type="text" name="mname" id="mname">
+            <label for="contact">Contact Number</label>
+            <input type="numeric" name="contact" id="contact">
+        </div>
+        <br>
+        Mother's Maiden Name          
+        <div> 
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname">
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname">
+            <label for="mname">Middle Name</label>
+            <input type="text" name="mname" id="mname">
+            <label for="contact">Contact Number</label>
+            <input type="numeric" name="contact" id="contact">
+        </div>
+        <br>
+        Guardian's Name          
+        <div> 
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname">
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname">
+            <label for="mname">Middle Name</label>
+            <input type="text" name="mname" id="mname">
+            <label for="contact">Contact Number</label>
+            <input type="numeric" name="contact" id="contact">
+        </div>
+        <br>
         
+        <p><b>For Returning Learner (Balik-Aral) and Those Who will Transfer/Move In</b></p>
+
+        <div> 
+            <label for="lastgrd">Last Grade Level Completed</label>
+            <input type="text" name="lastgrd" id="lastgrd">
+            <label for="lastSY">Last School Year Completed</label>
+            <input type="text" name="lastSY" id="lastSY">                 
+        </div>
+        <div> 
+            <label for="lastschool">Last School Attended</label>
+            <input type="text" name="lastschool" id="lastschool"> 
+            <label for="schoolid">School ID</label>
+            <input type="numeric" name="schoolid" id="schoolid">                         
+        </div>
+        <br>
+
+        <p><b>For Learners in Senior High School</b></p>
+
+        <div> 
+            <label for="semester">Semester</label>
+            <label for ="firstsem">1st Sem</label>
+            <input type="radio" name="first" id="first">
+            <label for ="secondsem">2nd Sem</label>
+            <input type="radio" name="second" id="second">                          
+        </div>
+        <br>
+        <div> 
+            <label for="track">Track</label>
+            <input type="text" name="track" id="track">
+            <label for="strand">Strand</label>
+            <input type="text" name="strand" id="strand">            
+        </div>
+        <br>
+        <p><b>Preferred Distance Learning Modality/ties</b></p>
+        <i>Choose all that applies</i>
+        <div> 
+            <label for="modularp">Modular(Print)</label>
+            <input type="checkbox" name="modularp" id="modularp">
+            <br>
+            <label for="online">Online</label>
+            <input type="checkbox" name="online" id="online">
+            <br>
+            <label for="radio">Radio-Based Instruction</label>
+            <input type="checkbox" name="radio" id="radio">
+            <br>
+            <label for="blended">Blended</label>
+            <input type="checkbox" name="blended" id="blended">
+            <br>
+            <label for="modulard">Modular(Digital)</label>
+            <input type="checkbox" name="modulard" id="modulard">
+            <br>
+            <label for="educationtv">Educational Television</label>
+            <input type="checkbox" name="educationtv" id="educationtv">
+            <br>
+            <label for="homeschooling">Homeschooling</label>
+            <input type="checkbox" name="homeschooling" id="homeschooling">
+            <br>
+            <label for="facetoface">Face to Face</label>
+            <input type="checkbox" name="facetoface" id="facetoface">
+        </div>
+            
         <br>
         <button>Submit</button>
         
